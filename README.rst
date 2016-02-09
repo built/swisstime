@@ -30,8 +30,8 @@ To display a report of your results, print the output of swisstime.report():
 
  >>> print( swisstime.report() )
 
-Your output will look something like this:
-::
+Your output will look something like this::
+
 --------------------------------------------------
 Time in seconds
 --------------------------------------------------
