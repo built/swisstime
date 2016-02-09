@@ -32,20 +32,21 @@ To display a report of your results, print the output of swisstime.report():
 
 Your output will look something like this::
 
---------------------------------------------------
-Time in seconds
---------------------------------------------------
-1.074243 | Startup
-0.127297 | Load input image
-0.024610 | Build masks
-0.127521 | Populate layers
-0.018821 | Build layers
-0.022240 | Tone down green
-0.100116 | Convert to floats
-0.343161 | Resize
-0.006000 | Image adjustments
-0.052212 | Convert to bytes
-0.969261 | Save as PNG
+========= ===================
+Time      Label
+========= ===================
+1.074243   Startup
+0.127297   Load input image
+0.024610   Build masks
+0.127521   Populate layers
+0.018821   Build layers
+0.022240   Tone down green
+0.100116   Convert to floats
+0.343161   Resize
+0.006000   Image adjustments
+0.052212   Convert to bytes
+0.969261   Save as PNG
+========= ===================
 
 
 If you want the raw report data you can call:
