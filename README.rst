@@ -10,6 +10,11 @@ In this way you build a timeline over the portion of code you are analyzing.
 
 You can print a report of the results or gather report data to process your own way.
 
+Installation
+===============
+>>> pip install swisstime
+
+
 Usage
 =====
 
